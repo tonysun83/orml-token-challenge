@@ -34,6 +34,7 @@ frame-support = { default-features = false, version = '2.0.0' }
 frame-system = { default-features = false, version = '2.0.0' }
 frame-system-benchmarking = { default-features = false, optional = true, version = '2.0.0' }
 frame-system-rpc-runtime-api = { default-features = false, version = '2.0.0' }
+orml-tokens = { default-features = false, version = '0.3.2' }
 pallet-aura = { default-features = false, version = '2.0.0' }
 pallet-balances = { default-features = false, version = '2.0.0' }
 pallet-grandpa = { default-features = false, version = '2.0.0' }
@@ -73,6 +74,7 @@ std = [
     'frame-support/std',
     'frame-system/std',
     'frame-system-rpc-runtime-api/std',
+    'orml-tokens/std',
     'pallet-aura/std',
     'pallet-balances/std',
     'pallet-grandpa/std',
